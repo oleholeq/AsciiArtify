@@ -58,3 +58,30 @@
 Недоліки:
 - K3s має відмінності від повноцінного Kubernetes
 - Docker також є вимогою (Podman не завжди працює стабільно)
+
+## Демонстрація: k3d + Hello World
+
+Рекомендований інструмент для стартапу AsciiArtify: k3d, оскільки він легкий, швидкий і має low-resource overhead.
+
+Кроки:
+  ```bash
+# 1. Встановити k3d
+brew install k3d  # або curl https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
+
+# 2. Створити кластер
+k3d cluster create asciiartify
+
+# 3. Розгорнути Hello World
+kubectl create deployment hello --image=nginx
+kubectl expose deployment hello --type=LoadBalancer --port=80
+
+# 4. Отримати порт
+k3d cluster list
+# 5.Порт-форвардинг
+kubectl port-forward service/hello 8080:80
+# 6. Періврка
+curl http://localhost:8080
+```
+Demonstration:
+![Demo](../demo/demo.gif)
+
