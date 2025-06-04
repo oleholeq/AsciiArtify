@@ -85,12 +85,10 @@ curl http://localhost:8080
 Demonstration:
 ![Demo](../demo/demo.gif)
 
-Джерела:
-1. ![Minikube start](https://kubernetes.io/uk/docs/tasks/tools/install-minikube/)
-2. ![Kind start](https://kind.sigs.k8s.io/)
-3. ![k3d start](https://k3d.io/v5.2.1/)
-4. ![Minikube vs kind vs k3d](https://www.devzero.io/blog/minikube-vs-kind-vs-k3s)
-5. ![Minikube vs kind vs k3d](https://www.blueshoe.io/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot/)
-6. ![Podman vs Docker](https://www.imaginarycloud.com/blog/podman-vs-docker)
-
-
+### Джерела:
+1. [Minikube start](https://kubernetes.io/uk/docs/tasks/tools/install-minikube/)
+2. [Kind start](https://kind.sigs.k8s.io/)
+3. [k3d start](https://k3d.io/v5.2.1/)
+4. [Minikube vs kind vs k3d](https://www.devzero.io/blog/minikube-vs-kind-vs-k3s)
+5. [Minikube vs kind vs k3d](https://www.blueshoe.io/blog/minikube-vs-k3d-vs-kind-vs-getdeck-beiboot/)
+6. [Podman vs Docker](https://www.imaginarycloud.com/blog/podman-vs-docker)
