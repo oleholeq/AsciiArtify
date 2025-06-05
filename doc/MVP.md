@@ -48,11 +48,5 @@ We get the result directly in the console:
 ![Logo](../demo/logo.png)
 
 URL:
-- [Video of mvp](https://asciinema.org/a/4YfP5AKbJHQYGC3PJc6ILvmv8)
+- [Video demo](https://asciinema.org/a/4YfP5AKbJHQYGC3PJc6ILvmv8)
 - [video of autosync argocd](../demo/argocd%20autosync.mov)
-
-
-
-
-
-
