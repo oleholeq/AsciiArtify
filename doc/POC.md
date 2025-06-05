@@ -30,3 +30,6 @@ Handling connection for 8080
 k -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}"
 k -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}"|base64 -d;echo
 ```
+
+URL:
+- [ARGOCD start](https://argo-cd.readthedocs.io/en/stable/)
